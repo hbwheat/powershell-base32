@@ -1,8 +1,12 @@
 # powershell-base32
 Use c# to encode and decode base 32 within powershell. 
 
-Import the .cs file, set a string and use the code to convert. 
+Download the files or clone using git then open the directory.
+
 ```
+git clone https://github.com/hbwheat/powershell-base32.git
+cd .\powershell-base32
+
 $text = "helloworld"
 $encoding = [system.Text.Encoding]::UTF8
 $byteString = $encoding.GetBytes($text)
