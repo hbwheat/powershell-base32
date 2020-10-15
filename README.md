@@ -1,6 +1,8 @@
 # powershell-base32
 Use c# to encode and decode base 32 within powershell. 
 
+C# credit to https://olegignat.com/base32/ 
+
 Download the files or clone using git then open the directory.
 
 ```
