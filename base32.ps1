@@ -1,4 +1,4 @@
-$text = "cooeyislife"
+$text = "helloworld"
 $encoding = [system.Text.Encoding]::UTF8
 $byteString = $encoding.GetBytes($text)
 
